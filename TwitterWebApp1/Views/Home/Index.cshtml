@@ -1,0 +1,101 @@
+﻿@using TwitterWebApp1.Models.Home
+@model IndexViewModel
+
+@{
+  ViewData["Title"] = "Home";
+}
+
+<div class="row gx-0">
+  <partial name="_SidebarPartial" />
+  <div class="col-5">
+    <div class="timeline">
+      <!-- Timeline Header Start -->
+      <div class="timeline-header py-1 border-bottom">
+        <h6 class="fw-bold ms-2">Home </h6>
+      </div>
+      <!-- Timeline Header End -->
+      <div class="feed">
+        <!-- Post Box Start -->
+        <div class="post-box ps-2 pb-1 border-bottom">
+          <form asp-action="Post" method="post" enctype="multipart/form-data">
+            <div class="form-group d-flex mt-2">
+              <div class="post-box-pp">
+                <img class="rounded-circle" src="~/images/@Model.CreatePostBox!.ProfileImage" alt="">
+              </div>
+              <textarea asp-for="@Model.CreatePostBox.Description" rows="1" maxlength="280"
+                placeholder="What's happening?" class="form-control border-0"></textarea>
+            </div>
+            <div class="uploaded-media">
+              <div class="d-flex justify-content-center">
+                <img src="" id="createpost-imgpreview" asp-append-version=true alt="">
+                <div class="uploaded-media-remove">
+                  <button type="button" class="btn btn-sm btn-danger">
+                    <i class="fa-solid fa-times"></i>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex px-5">
+              <i class="fa-solid fa-globe p-1"></i>
+              <div class="my-auto">
+                <small class="m-0">Everyone can see</small>
+              </div>
+            </div>
+            <div class="d-flex mt-2 ms-5 me-3 border-top">
+              <div class="input-media">
+                <div data-mdb-button-init data-mdb-ripple-init class="btn btn-sm btn-primary btn-rounded-pill m-2">
+                  <label class="text-white" for="createpost-imgfile">
+                    <i class="fa-regular fa-image"></i>
+                  </label>
+                  <input asp-for=@Model.CreatePostBox.InputImageFile accept="image/*" class="form-control d-none"
+                    id="createpost-imgfile" />
+                </div>
+              </div>
+              <div class="ms-auto"></div>
+              <button type="submit" class="btn btn-primary rounded-pill my-1">
+                <span class="fw-bold">Post</span>
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- Post Box End -->
+        <div role="button" class="refresh-border d-flex justify-content-center border-bottom">
+          <span class="text-primary my-2">Refresh</span>
+        </div>
+        <div id="posts-container">
+          <!-- Posts will be rendered here by jquerry request. -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4 vh-100">
+    <div class="trend-topics h-100 px-2 border-start border-end">
+
+      <ul class="nav nav-fill nav-tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="fill-tab-0" data-bs-toggle="tab" href="#fill-tabpanel-0" role="tab"
+            aria-controls="fill-tabpanel-0" aria-selected="true">Daily</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="fill-tab-1" data-bs-toggle="tab" href="#fill-tabpanel-1" role="tab"
+            aria-controls="fill-tabpanel-1" aria-selected="false">Weekly</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="fill-tab-2" data-bs-toggle="tab" href="#fill-tabpanel-2" role="tab"
+            aria-controls="fill-tabpanel-2" aria-selected="false">Monthly</a>
+        </li>
+      </ul>
+      <div class="tab-content pt-5" id="tab-content">
+        <div class="tab-pane active" id="fill-tabpanel-0" role="tabpanel" aria-labelledby="fill-tab-0"></div>
+        <div class="tab-pane" id="fill-tabpanel-1" role="tabpanel" aria-labelledby="fill-tab-1"></div>
+        <div class="tab-pane" id="fill-tabpanel-2" role="tabpanel" aria-labelledby="fill-tab-2"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+@section Scripts {
+  @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+  }
+}

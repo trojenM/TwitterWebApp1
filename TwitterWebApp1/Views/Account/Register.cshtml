@@ -1,0 +1,54 @@
+@using TwitterWebApp1.Models.Account
+@model RegisterViewModel
+
+@{
+  ViewData["Title"] = "Register";
+}
+
+<div class="row d-flex align-items-center justify-content-center">
+  <div class="col-md-4 card p-3">
+    <h2 class="text-center text-info">Register</h2>
+    <form asp-action="Register" method="post">
+      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+      <div class="mb-1">
+        <label asp-for=@Model.UserName class="control-label"></label>
+        <input asp-for=@Model.UserName class="form-control">
+        <span asp-validation-for=@Model.UserName class="text-danger"></span>
+      </div>
+      <div class="mb-1">
+        <label asp-for=@Model.Email class="control-label"></label>
+        <input asp-for=@Model.Email class="form-control">
+        <span asp-validation-for=@Model.Email class="text-danger"></span>
+      </div>
+      <div class="mb-1">
+        <label asp-for=@Model.Password class=" control-label"></label>
+        <input asp-for=@Model.Password class="form-control">
+        <span asp-validation-for=@Model.Password class="text-danger"></span>
+      </div>
+      <div class="mb-1">
+        <label asp-for=@Model.ConfirmPassword class="control-label"></label>
+        <input asp-for=@Model.ConfirmPassword class="form-control">
+        <span asp-validation-for=@Model.ConfirmPassword class="text-danger"></span>
+      </div>
+      <div class="mb-1">
+        <label asp-for=@Model.Name class="control-label"></label>
+        <input asp-for=@Model.Name class="form-control">
+        <span asp-validation-for=@Model.Name class="text-danger"></span>
+      </div>
+      <div class="row">
+        <div class="col-8">
+          <a asp-action="Login" class="text-decoration-none float-start mt-2">Have account?</a>
+        </div>
+        <div class="col-4">
+          <input type="submit" value="Register" class="btn btn-primary btn-sm float-end" />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+@section Scripts {
+  @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+  }
+}

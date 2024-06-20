@@ -1,0 +1,57 @@
+@using TwitterWebApp1.Models
+@model IEnumerable<PostViewModel>
+
+@if (Model != null && Model.Any())
+{
+  @foreach (var post in Model)
+  {
+    <article>
+  <a asp-controller="Profile" asp-action="Post" asp-route-postHashCode=@post.Hash
+    class="text-decoration-none text-dark">
+    <div class="post post-clickable p-3">
+      <div class="post-header">
+        <div class="d-flex">
+          <div class="post-pp">
+            <img class="rounded-circle" src="~/images/@post.AuthorProfileImage" alt="">
+          </div>
+          <div class="post-info ps-2">
+            <span>@post.Name <small class="text-secondary"><code>&#64</code>@post.UserName
+                <small><code>&#183</code>@post.CreatedAt</small></small> </span>
+          </div>
+        </div>
+      </div>
+      <div class="post-body">
+        <div class="post-description mt-2">
+          <p class="lh-1"><small>@post.Description</small></p>
+        </div>
+        <div class="post-media">
+          <img class="rounded-3" src="~/images/post/@post.PostImage" alt="">
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="post-footer border-bottom">
+    <div class="d-flex justify-content-between py-2 px-4">
+      <button class="repeat-btn btn btn-primary rounded-pill btn-sm" data-hashcode=@post.Hash data-requesturl=''>
+        <i class="fa-solid fa-repeat"></i>
+        <span id="repeat-count-@post.Hash">0</span>
+      </button>
+      <button class="like-btn btn btn-primary rounded-pill btn-sm" data-hashcode=@post.Hash
+        data-requesturl='@Url.Action("Like", "Profile")'>
+        <i class="fa-solid fa-heart"></i>
+        <span id="like-count-@post.Hash">@post.LikesCount</span>
+      </button>
+      <button class="reply-btn btn btn-primary rounded-pill btn-sm" data-hashcode=@post.Hash data-requesturl=''>
+        <i class="fa-solid fa-comment"></i>
+        <span id="reply-count-@post.Hash">@post.RepliesCount</span>
+      </button>
+      <button class="bookmark-btn btn btn-primary rounded-pill btn-sm" data-hashcode=@post.Hash
+        data-requesturl='@Url.Action("Bookmark", "Profile")'>
+        <i class="fa-solid fa-bookmark"></i>
+        <span id="bookmark-count-@post.Hash">@post.BookmarksCount</span>
+      </button>
+    </div>
+  </div>
+</article>
+  }
+}

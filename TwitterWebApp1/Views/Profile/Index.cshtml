@@ -1,0 +1,128 @@
+@using TwitterWebApp1.Models.Profile
+@model ProfileViewModel
+
+@{
+  ViewData["Title"] = "Profile";
+}
+
+<div class="row gx-0">
+  <partial name="_SidebarPartial" />
+  <div class="col-5">
+    <div class="timeline h-100">
+      <!-- Timeline Header Start -->
+      <div class="timeline-header py-1 border-bottom">
+        <h6 class="fw-bold ms-2">Profile </h6>
+      </div>
+      <!-- Timeline Header End -->
+      <div class="feed">
+        <div class="profile">
+          <div class="cover-image">
+            <img class="" src="https://www.focus2move.com/wp-content/uploads/2020/01/Tesla-Roadster-2020-1024-03.jpg"
+              alt="">
+          </div>
+          <div class="profile-body p-3 border-bottom">
+            <div class="d-flex justify-content-between">
+              <div class="profile-image">
+                <img class="rounded-circle" src="~/images/@Model.ProfileImage" alt="">
+              </div>
+              <div>
+                @if (Model.IsCurrentUser)
+                {
+                  <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal"
+                    data-bs-target="#edit-profile-modal">
+                    <span class="fw-bold">Edit Profile</span>
+                  </button>
+                }
+              </div>
+            </div>
+            <div class="profile-name mt-3">
+              <div>
+                <span class="h5 fw-bold">@Model.Name</span>
+              </div>
+              <div>
+                <span class="text-secondary"><small><code>&#64</code>@Model.UserName</small></span>
+              </div>
+            </div>
+            <div class="profile-bio mt-4">
+              <p class="lh-1"><small>@Model.Bio</small></p>
+            </div>
+            <div class="d-flex">
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="text-secondary">@Model.Location</span>
+              </div>
+              <div class="ms-4">
+                <i class="fa-regular fa-calendar"></i>
+                <span class="text-secondary">Joined @Model.JoinedDate</span>
+              </div>
+            </div>
+          </div>
+          <div class="profile-footer p-3 border-bottom">
+            <div class="d-flex justify-content-between">
+              <div>
+                <span class="fw-bold">0</span>
+                <span class="text-secondary">Following</span>
+              </div>
+              <div>
+                <span class="fw-bold">0</span>
+                <span class="text-secondary">Followers</span>
+              </div>
+            </div>
+          </div>
+          <div id="profile-posts-container">
+            <!-- Profile posts will be rendered here by jquerry request. -->
+          </div>
+          <!-- Edit Profile Modal Start -->
+          <div class="modal" id="edit-profile-modal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Edit Profile</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form asp-action="Index" method="post" enctype="multipart/form-data">
+                  <div class="edit-profile-modal modal-body">
+                    <div class="edit-pp">
+                      <div class="d-flex justify-content-center mb-4">
+                        <img id="pp-imgpreview" src="~/images/@Model.ProfileImage" class="rounded-circle"
+                          asp-append-version=true alt="" />
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <div data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-rounded">
+                          <label class="form-label text-white m-1" for="pp-imgfile">Choose file</label>
+                          <input asp-for=@Model.ProfileImageFile accept="image/*" class="form-control d-none"
+                            id="pp-imgfile" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-floating mt-4">
+                      <input type="text" asp-for=@Model.Name maxlength="20" class="form-control">
+                      <label asp-for=@Model.Name></label>
+                    </div>
+                    <div class="form-floating mt-4">
+                      <textarea class="form-control" asp-for=@Model.Bio rows="1" maxlength="120"></textarea>
+                      <label class="form-label" asp-for=@Model.Bio></label>
+                    </div>
+                    <div class="form-floating mt-4">
+                      <input type="text" asp-for=@Model.Location maxlength="40" class="form-control">
+                      <label asp-for=@Model.Location></label>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- Edit Profile Modal End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4 vh-100">
+    <div class="trend-topics h-100 border-start">
+    </div>
+  </div>
+</div>

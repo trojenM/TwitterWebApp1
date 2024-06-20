@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/obj/Debug/net8.0/scopedcss/projectbundle/TwitterWebApp1.bundle.scp.css",
+      "PackagePath": "staticwebassets/TwitterWebApp1.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/1d02857a-a055-42a1-9ea2-906a72122245_1661784336721.jpeg",
+      "PackagePath": "staticwebassets/images/1d02857a-a055-42a1-9ea2-906a72122245_1661784336721.jpeg"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/85cf0947-caca-4eda-a19a-c3e90bfc198c_Cropped_Image.png",
+      "PackagePath": "staticwebassets/images/85cf0947-caca-4eda-a19a-c3e90bfc198c_Cropped_Image.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/1f9324ee-52d2-453b-8b5e-492894e10104_Screenshot 2024-05-04 at 16.00.32.png",
+      "PackagePath": "staticwebassets/images/Post/1f9324ee-52d2-453b-8b5e-492894e10104_Screenshot 2024-05-04 at 16.00.32.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/4225634f-2879-496f-9ecf-0cab12bda531_Cropped_Image.png",
+      "PackagePath": "staticwebassets/images/Post/4225634f-2879-496f-9ecf-0cab12bda531_Cropped_Image.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/4a445c67-ff3a-4fd7-9639-b928f25cac65_Screenshot 2024-05-04 at 16.00.32.png",
+      "PackagePath": "staticwebassets/images/Post/4a445c67-ff3a-4fd7-9639-b928f25cac65_Screenshot 2024-05-04 at 16.00.32.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/51403439-22b9-4c61-97b1-33951cb9bf87_1661784336721.jpeg",
+      "PackagePath": "staticwebassets/images/Post/51403439-22b9-4c61-97b1-33951cb9bf87_1661784336721.jpeg"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/805e84a5-ef38-409e-9306-7f36c0430f99_default-pp.png",
+      "PackagePath": "staticwebassets/images/Post/805e84a5-ef38-409e-9306-7f36c0430f99_default-pp.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/b41778f5-0c1f-465b-abfd-cfb7c4363712_Cropped_Image.png",
+      "PackagePath": "staticwebassets/images/Post/b41778f5-0c1f-465b-abfd-cfb7c4363712_Cropped_Image.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/c5f820c4-6dda-4889-9180-ed2548d26108_IMG_0697.PNG",
+      "PackagePath": "staticwebassets/images/Post/c5f820c4-6dda-4889-9180-ed2548d26108_IMG_0697.PNG"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/ce24a037-dfb9-4b79-8931-214111ea412e_default-pp.png",
+      "PackagePath": "staticwebassets/images/Post/ce24a037-dfb9-4b79-8931-214111ea412e_default-pp.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/d2613831-f1eb-441d-a5d4-d8fd1e517bc5_Cropped_Image.png",
+      "PackagePath": "staticwebassets/images/Post/d2613831-f1eb-441d-a5d4-d8fd1e517bc5_Cropped_Image.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/ef63c35f-15e6-4a9b-a301-27f7c6dbcd2c_Cropped_Image.png",
+      "PackagePath": "staticwebassets/images/Post/ef63c35f-15e6-4a9b-a301-27f7c6dbcd2c_Cropped_Image.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/f10aa445-97a3-4f78-82f9-bc09ba2d4fb0_IMG_0697.PNG",
+      "PackagePath": "staticwebassets/images/Post/f10aa445-97a3-4f78-82f9-bc09ba2d4fb0_IMG_0697.PNG"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/Post/fb1b8754-c4a9-473f-9773-ba04cbe62aae_Cropped_Image.png",
+      "PackagePath": "staticwebassets/images/Post/fb1b8754-c4a9-473f-9773-ba04cbe62aae_Cropped_Image.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/default-pp.png",
+      "PackagePath": "staticwebassets/images/default-pp.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/images/e3221b08-328a-446b-92e5-6441ac6ffcaa_Cropped_Image.png",
+      "PackagePath": "staticwebassets/images/e3221b08-328a-446b-92e5-6441ac6ffcaa_Cropped_Image.png"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap-maxlength.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap-maxlength.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap-maxlength.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap-maxlength.min.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/bootstrap/src/bootstrap-maxlength.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/src/bootstrap-maxlength.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/m2/Documents/TwitterWebApp1/TwitterWebApp1/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.TwitterWebApp1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.TwitterWebApp1.props",
+      "PackagePath": "build\\TwitterWebApp1.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.TwitterWebApp1.props",
+      "PackagePath": "buildMultiTargeting\\TwitterWebApp1.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.TwitterWebApp1.props",
+      "PackagePath": "buildTransitive\\TwitterWebApp1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

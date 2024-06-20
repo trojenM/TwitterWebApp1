@@ -1,0 +1,29 @@
+@using TwitterWebApp1.Models.Home
+@model IndexViewModel
+
+@{
+    ViewData["Title"] = "Bookmarks";
+}
+
+<div class="row gx-0">
+    <partial name="_SidebarPartial" />
+    <div class="col-5">
+        <div class="timeline">
+            <!-- Timeline Header Start -->
+            <div class="timeline-header py-1 ps-2 border-bottom">
+                <h6 class="fw-bold my-0">Bookmarks </h6>
+                <h6 class="text-secondary my-0"><small><code>&#64</code>@User.Identity!.Name</small></h6>
+            </div>
+            <!-- Timeline Header End -->
+            <div class="feed">
+                <div id="bookmark-posts-container">
+                    <!-- Bookmark posts will be rendered here by jquerry request. -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-4 vh-100">
+        <div class="trend-topics h-100 border-start">
+        </div>
+    </div>
+</div>

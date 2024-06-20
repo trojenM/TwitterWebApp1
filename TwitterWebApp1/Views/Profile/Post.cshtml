@@ -1,0 +1,109 @@
+@using TwitterWebApp1.Models
+@model PostViewModel
+
+@{
+  ViewData["Title"] = @Model.Description;
+}
+
+<div class="row gx-0">
+  <partial name="_SidebarPartial" />
+  <div class="col-5">
+    <div class="timeline h-100">
+
+      <!-- Timeline Header Start -->
+      <div class="timeline-header py-1 border-bottom">
+        <div class="d-flex ps-2">
+          <a href="javascript:history.go(-1)" class="text-decoration-none text-dark">
+            <div class="post-return section-box">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </a>
+          <h6 class="fw-bold ms-2">Post</h6>
+        </div>
+      </div>
+      <!-- Timeline Header End -->
+
+      <div class="feed">
+
+        <!-- Post Start -->
+        <article>
+          <div class="post p-3">
+            <div class="post-header">
+              <div class="d-flex">
+                <div class="post-pp">
+                  <img class="rounded-circle" src="~/images/@Model.AuthorProfileImage" alt="">
+                </div>
+                <div class="post-info ps-2">
+                  <span>@Model.Name <small class="text-secondary"><code>&#64</code>@Model.UserName
+                      <small><code>&#183</code>@Model.CreatedAt</small></small> </span>
+                </div>
+              </div>
+            </div>
+            <div class="post-body">
+              <div class="post-description mt-2">
+                <p class="lh-1"><small>@Model.Description</small></p>
+              </div>
+              <div class="post-media">
+                <img class="rounded-3" src="~/images/post/@Model.PostImage" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="post-footer border-bottom">
+            <div class="d-flex justify-content-between py-2 px-4">
+              <button class="repeat-btn btn btn-primary rounded-pill btn-sm" data-hashcode=@Model.Hash
+                data-requesturl=''>
+                <i class="fa-solid fa-repeat"></i>
+                <span id="repeat-count-@Model.Hash">0</span>
+              </button>
+              <button class="like-btn btn btn-primary rounded-pill btn-sm" data-hashcode=@Model.Hash
+                data-requesturl='@Url.Action("Like", "Profile")'>
+                <i class="fa-solid fa-heart"></i>
+                <span id="like-count-@Model.Hash">@Model.LikesCount</span>
+              </button>
+              <button class="reply-btn btn btn-primary rounded-pill btn-sm" data-hashcode=@Model.Hash
+                data-requesturl=''>
+                <i class="fa-solid fa-comment"></i>
+                <span id="reply-count-@Model.Hash">@Model.RepliesCount</span>
+              </button>
+              <button class="bookmark-btn btn btn-primary rounded-pill btn-sm" data-hashcode=@Model.Hash
+                data-requesturl='@Url.Action("Bookmark", "Profile")'>
+                <i class="fa-solid fa-bookmark"></i>
+                <span id="bookmark-count-@Model.Hash">@Model.BookmarksCount</span>
+              </button>
+            </div>
+          </div>
+        </article>
+        <!-- Post End -->
+
+        <!-- Post Create Reply Box Start -->
+        <div class="post-reply-box p-1 border-bottom">
+          <form method="post" asp-action="ReplyPost">
+            @Html.HiddenFor(m => m.Hash)
+            <div class="form-floating">
+              <textarea class="form-control border-0" asp-for=@Model.Description placeholder=" " rows="1"
+                maxlength="120"></textarea>
+              <label class="form-label text-secondary">Post your reply</label>
+            </div>
+            <div class="d-flex">
+              <div class="ms-auto"></div>
+              <button type="submit" class="btn btn-sm btn-primary rounded-pill me-2">Reply</button>
+            </div>
+          </form>
+        </div>
+        <!-- Post Create Reply Box End -->
+
+        <!-- Post Replies Start -->
+        <div id="reply-posts-container">
+          <!-- ReplyPosts will be rendered here by jquerry request. -->
+        </div>
+        <!-- Post Replies End -->
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-4 vh-100">
+  <div class="trend-topics h-100 border-start">
+  </div>
+</div>
+</div>
